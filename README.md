@@ -1,6 +1,6 @@
 # Scripts for our study
 This website includes the scripts used in our study.<br>
-If it is necessarty to run the scripts, please download the zip and run according to the below description.<br>
+If it is necessarty to run the scripts, please download the ZIP and run according to the below description.<br>
 <br>
 The scripts were created by Python3.<br>
 The Python libraries written in requirements.txt in /src are necessary to run them.<br>
