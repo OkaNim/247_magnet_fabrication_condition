@@ -26,6 +26,7 @@ All _text.txt files in /run are sequentially processed and  the output files (_o
 * _output_llm.txt is the file edited the contents of _output_llm.json to evaluate the extraction.<br>
 In the edition, the inappropriate outputs, e.g. numbers are not included in a value, are eliminated.<br>
 Since the file format is TSV,  a spreadsheet software such as Excel is convenient to check.<br>
+</br>
 ## How to run our extractor
 The following two settings are necessary in advance.<br>
 <br>
