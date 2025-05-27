@@ -33,7 +33,7 @@ The following two settings are necessary in advance.<br>
 https://huggingface.co/m3rg-iitd/matscibert<br>
 <br>
 (2) Write the model path in your computer in line 14 of 247_02_extract_data_our-extarctor_250516.py.<br>
-![alt text](image-5.png)<br>
+![image](https://github.com/user-attachments/assets/84087183-daca-4217-b1f9-a36bc97330ec)<br>
 <br>
 <br>
 After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are copied to /run and then hit the following command at /src (only CPU is used):
