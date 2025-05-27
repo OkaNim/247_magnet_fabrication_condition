@@ -1,9 +1,9 @@
 # Scripts for our study
 This website includes the scripts used in our study.<br>
-If it is necessarty to run the scripts, please download the ZIP and run according to the below description.<br>
+If it is necessarty to run the scripts, please download the zip and run according to the below description.<br>
 <br>
-The scripts were created by Python3.<br>
-The Python libraries written in requirements.txt in /src are necessary to run them.<br>
+The scripts were created by Python 3.<br>
+The Python libraries including Anaconda and written in requirements.txt in /src are necessary to run them.<br>
 <br>
 ## How to run the script for data extraction by LLM (Gemma 2)
 The following two settings are necessary in advance.<br>
@@ -13,7 +13,7 @@ https://huggingface.co/google/gemma-2-9b-it<br>
 (Log-in and authentification etc. are neccesarry.) <br>
 <br>
 (2) Write the model path in your computer in line 10 of 247_01_extract_data_llm_250513.py.<br>
-![image](https://github.com/user-attachments/assets/981db669-9048-4744-b726-0acad9f44520)<br>
+![alt text](image-4.png)<br>
 <br>
 <br>
 After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are copied to /run and then hit the following command at /src (GPUs are necessary to run fast):
@@ -33,7 +33,7 @@ The following two settings are necessary in advance.<br>
 https://huggingface.co/m3rg-iitd/matscibert<br>
 <br>
 (2) Write the model path in your computer in line 14 of 247_02_extract_data_our-extarctor_250516.py.<br>
-![image](https://github.com/user-attachments/assets/84087183-daca-4217-b1f9-a36bc97330ec)<br>
+![alt text](image-5.png)<br>
 <br>
 <br>
 After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are copied to /run and then hit the following command at /src (only CPU is used):
