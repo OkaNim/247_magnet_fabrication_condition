@@ -13,7 +13,7 @@ https://huggingface.co/google/gemma-2-9b-it<br>
 (Log-in and authentification etc. are neccesarry.) <br>
 <br>
 (2) Write the model path in your computer in line 10 of 247_01_extract_data_llm_250513.py.<br>
-![alt text](image-4.png)<br>
+![image](https://github.com/user-attachments/assets/981db669-9048-4744-b726-0acad9f44520)<br>
 <br>
 <br>
 After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are copied to /run and then hit the following command at /src (GPUs are necessary to run fast):
