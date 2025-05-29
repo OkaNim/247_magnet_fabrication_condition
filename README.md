@@ -12,7 +12,7 @@ The following two settings are necessary in advance.<br>
 https://huggingface.co/google/gemma-2-9b-it<br>
 (Log-in and authentification etc. are neccesarry.)<br>
 <br>
-(2) Write the model path (the path to the folder including the downloaded files) in your computer in line 10 of 247_01_extract_data_llm_250513.py.<br>
+(2) Write the model path (the path to the folder including the downloaded files) in your computer in line 10 of 247_01_extract_data_llm_250514.py.<br>
 ![image](https://github.com/user-attachments/assets/a606819a-277a-4232-9cd9-18c07300a0dd)<br>
 <br>
 <br>
