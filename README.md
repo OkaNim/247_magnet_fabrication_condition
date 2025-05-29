@@ -2,7 +2,7 @@
 This website includes the scripts used in our study.<br>
 If it is necessarty to run the scripts, please download the zip and run according to the below description.<br>
 <br>
-The scripts were created by Python 3 and enable to be run on Linux OS.<br>
+The scripts were created by Python 3 and can be run on Linux OS.<br>
 The Python libraries including Anaconda and written in requirements.txt in /src are necessary to run them.<br>
 <br>
 ## How to run the script for data extraction by LLM (Gemma 2)
