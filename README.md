@@ -16,7 +16,7 @@ https://huggingface.co/google/gemma-2-9b-it<br>
 ![image](https://github.com/user-attachments/assets/a606819a-277a-4232-9cd9-18c07300a0dd)<br>
 <br>
 <br>
-After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are copied to /run and then hit the following command at /src (GPUs are necessary to run fast):
+After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are put or copied in /run and then hit the following command at /src (GPUs are necessary to run fast):
 ```
 python 247_01_extract_data_llm_250513.py
 ```
@@ -36,7 +36,7 @@ https://huggingface.co/m3rg-iitd/matscibert<br>
 ![image](https://github.com/user-attachments/assets/fad8d16b-e9e7-4506-b2a6-fc06a3f4d286)<br>
 <br>
 <br>
-After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are copied to /run and then hit the following command at /src (only CPU is used):
+After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are put or copied in /run and then hit the following command at /src (only CPU is used):
 ```
 python 247_02_extract_data_our-extarctor_250516.py
 ```
