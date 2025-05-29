@@ -48,11 +48,11 @@ In the evaluation, _output_llm.txt, _output_our-extractor.txt, and the correct a
 <br>
 Put all _output_llm.txt and _output_our-extractor.txt files in /data/output_llm and /data/output_our-extractor, respectively, and then hit the command at /src:
 ```
-python 247_03_evaluate_250516.py output_llm
+python 247_03_evaluate_250529.py output_llm
 ```
 and
 ```
-python 247_03_evaluate_250516.py output_our-extractor
+python 247_03_evaluate_250529.py output_our-extractor
 ```
 The result files (evaluation_output_llm.txt and evaluation_output_our-extractor.txt) are saved in /data/evaluation_results.<br>
 * The minor differences in expression between the outputs and the correct answers are ignored using correct-expressions.txt in /src/supplement.<br>
