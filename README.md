@@ -42,7 +42,7 @@ python 247_02_extract_data_our-extarctor_250516.py
 ```
 All _text.txt files in /run are sequentially processed and the output files (_output_our-extractor.txt) are saved in /run.<br>
 (The files outputted previously by us are in /data/output_our-extractor.)<br>
-* Since the file format is TSV, a spreadsheet software such as Excel is convenient to check.<br>
+* Since the file format for _text.txt and _output_our-extractor.txt is TSV, a spreadsheet software such as Excel is convenient to check.
 ## How to run the script to evaluate the above extractions
 In the evaluation, _output_llm.txt, _output_our-extractor.txt, and the correct answer files in /data/output_ca are used.<br>
 <br>
