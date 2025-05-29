@@ -23,7 +23,7 @@ python 247_01_extract_data_llm_250513.py
 All _text.txt files in /run are sequentially processed and the output files (_output_llm.json and _output_llm.txt) are saved in /run.<br>
 (The files outputted previously by us are in /data/output_llm.)<br>
 * _output_llm.json includes the raw output from the LLM.<br>
-* _output_llm.txt is the file edited the contents of _output_llm.json to evaluate the extraction.
+* _output_llm.txt is the file edited the contents of _output_llm.json to evaluate the extraction.<br>
 In the edition, the inappropriate outputs, e.g. numbers are not included in a value, are eliminated.
 * Since the file format for _text.txt and _output_llm.txt is TSV, a spreadsheet software such as Excel is convenient to check.
 ## How to run our extractor
