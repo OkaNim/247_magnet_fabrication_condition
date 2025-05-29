@@ -1,7 +1,6 @@
 # Source codes for our study
 This website includes the source codes used in our study.<br>
-If it is necessarty to run them, please download the zip and run according to the below description.<br>
-<br>
+If it is necessarty to run them, please download the zip and run according to the below description.
 * The source codes were created by Python 3 and can be run on Linux OS.<br>
 * The Python libraries including Anaconda and written in requirements.txt in /src are necessary to run them.<br>
 ## How to run the source code for data extraction by LLM (Gemma 2)
