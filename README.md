@@ -12,7 +12,7 @@ The following two settings are necessary in advance.<br>
 https://huggingface.co/google/gemma-2-9b-it<br>
 (Log-in and authentification etc. are neccesarry.)<br>
 <br>
-(2) Write the model path in your computer in line 10 of 247_01_extract_data_llm_250513.py.<br>
+(2) Write the model path (the path to the folder including the downloaded files) in your computer in line 10 of 247_01_extract_data_llm_250513.py.<br>
 ![image](https://github.com/user-attachments/assets/a606819a-277a-4232-9cd9-18c07300a0dd)<br>
 <br>
 <br>
@@ -32,7 +32,7 @@ The following two settings are necessary in advance.<br>
 (1) Download the model of "matscibert" (all files in the folder) from the Huggin Face website.<br>
 https://huggingface.co/m3rg-iitd/matscibert<br>
 <br>
-(2) Write the model path in your computer in line 14 of 247_02_extract_data_our-extarctor_250516.py.<br>
+(2) Write the model path (the path to the folder including the downloaded files) in your computer in line 14 of 247_02_extract_data_our-extarctor_250516.py.<br>
 ![image](https://github.com/user-attachments/assets/fad8d16b-e9e7-4506-b2a6-fc06a3f4d286)<br>
 <br>
 <br>
