@@ -1,9 +1,11 @@
-# Source codes for our study
-This website includes the source codes used in our study.<br>
-If it is necessarty to run them, please download the zip and run according to the below description.
-* The source codes were created by Python 3 and can be run on Linux OS.<br>
-* The Python libraries including Anaconda and written in requirements.txt in /src are necessary.<br>
-## How to run the source code for data extraction by LLM (Gemma 2)
+# Scripts for our study
+This website includes the scripts used in our study.<br>
+If it is necessarty to run the scripts, please download the zip and run according to the below description.<br>
+<br>
+The scripts were created by Python 3 and enable to be run on Linux OS.<br>
+The Python libraries including Anaconda and written in requirements.txt in /src are necessary to run them.<br>
+<br>
+## How to run the script for data extraction by LLM (Gemma 2)
 The following two settings are necessary in advance.<br>
 <br>
 (1) Download the model of "gemma-2-9b-it" (all files in the folder) from the Huggin Face website.<br>
@@ -24,7 +26,7 @@ All _text.txt files in /run are sequentially processed and the output files (_ou
 * _output_llm.txt is the file edited the contents of _output_llm.json to evaluate the extraction.<br>
 In the edition, the inappropriate outputs, e.g. numbers are not included in a value, are eliminated.
 * Since the file format for _text.txt and _output_llm.txt is TSV, a spreadsheet software such as Excel is convenient to check.
-## How to run the source code for our extractor
+## How to run our extractor
 The following two settings are necessary in advance.<br>
 <br>
 (1) Download the model of "matscibert" (all files in the folder) from the Huggin Face website.<br>
@@ -41,7 +43,7 @@ python 247_02_extract_data_our-extarctor_250516.py
 All _text.txt files in /run are sequentially processed and the output files (_output_our-extractor.txt) are saved in /run.<br>
 (The files outputted previously by us are in /data/output_our-extractor.)<br>
 * Since the file format for _text.txt and _output_our-extractor.txt is TSV, a spreadsheet software such as Excel is convenient to check.
-## How to run the source code to evaluate the above extractions
+## How to run the script to evaluate the above extractions
 In the evaluation, _output_llm.txt, _output_our-extractor.txt, and the correct answer files in /data/output_ca are used.<br>
 <br>
 Put all _output_llm.txt and _output_our-extractor.txt files in /data/output_llm and /data/output_our-extractor, respectively, and then hit the command at /src:
