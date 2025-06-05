@@ -21,7 +21,7 @@ After the settings, the _text.txt files (the plain text extracted from PDF of US
 python 247_01_extract_data_llm_250514.py
 ```
 All _text.txt files in /run are sequentially processed and the output files (_output_llm.json and _output_llm.txt) are saved in /run.<br>
-(The files outputted previously by us are in /data/output_llm.)<br>
+(The files outputted by us are in /data/output_llm.)<br>
 * _output_llm.json includes the raw output from the LLM.<br>
 * _output_llm.txt is the file edited the contents of _output_llm.json to evaluate the extraction.<br>
 In the edition, the inappropriate outputs, e.g. numbers are not included in a value, are eliminated.
@@ -41,7 +41,7 @@ After the settings, the _text.txt files (the plain text extracted from PDF of US
 python 247_02_extract_data_our-extarctor_250516.py
 ```
 All _text.txt files in /run are sequentially processed and the output files (_output_our-extractor.txt) are saved in /run.<br>
-(The files outputted previously by us are in /data/output_our-extractor.)<br>
+(The files outputted by us are in /data/output_our-extractor.)<br>
 * Since the file format for _text.txt and _output_our-extractor.txt is TSV, a spreadsheet software such as Excel is convenient to check.
 ## How to run the script to evaluate the above extractions
 In the evaluation, _output_llm.txt, _output_our-extractor.txt, and the correct answer files in /data/output_ca are used.<br>
