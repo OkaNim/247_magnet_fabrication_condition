@@ -4,6 +4,7 @@ If it is necessarty to run the scripts, please download the zip and run accordin
 <br>
 The scripts were created by Python 3 and can be run on Linux OS.<br>
 The Python libraries including Anaconda and written in requirements.txt in /src are necessary to run them.<br>
+(If there is the error for missing libraries, please install them.)<br>
 <br>
 ## How to run the script for data extraction by LLM (Gemma 2)
 The following two settings are necessary in advance.<br>
