@@ -12,13 +12,13 @@ The following two settings are necessary in advance.<br>
 https://huggingface.co/google/gemma-2-9b-it<br>
 (Log-in and authentification etc. are neccesarry.)<br>
 <br>
-(2) Write the model path (the path to the folder including the downloaded files) in your computer in line 10 of 247_01_extract_data_llm_250514.py.<br>
+(2) Write the model path (the path to the folder including the downloaded files) in your computer in line 10 of 247_01_extract_data_llm_250605.py.<br>
 ![image](https://github.com/user-attachments/assets/a606819a-277a-4232-9cd9-18c07300a0dd)<br>
 <br>
 <br>
 After the settings, the _text.txt files (the plain text extracted from PDF of US patents) in /data/text are moved or copied to /run and then hit the following command at /src (GPUs are necessary to run fast):
 ```
-python 247_01_extract_data_llm_250514.py
+python 247_01_extract_data_llm_250605.py
 ```
 All _text.txt files in /run are sequentially processed and the output files (_output_llm.json and _output_llm.txt) are saved in /run.<br>
 (The files outputted by us are in /data/output_llm.)<br>
